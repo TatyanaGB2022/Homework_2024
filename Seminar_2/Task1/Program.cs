@@ -5,9 +5,9 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 if (number % 7 == 0 && number % 23== 0)
 {
-  System.Console.WriteLine("Кратно");
+  System.Console.Write("Кратно");
 }
 else
 {
-  System.Console.WriteLine("Не кратно");
+  System.Console.Write("Не кратно");
 }
