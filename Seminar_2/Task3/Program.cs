@@ -7,7 +7,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 int firstNumber = number / 10;
 int secondNumber = number % 10;
 
-System.Console.WriteLine($"Наибольшая цифра в числе: {number}");
+
 if (secondNumber > firstNumber)
 {
   System.Console.WriteLine($"Больше цифра: {secondNumber}");
